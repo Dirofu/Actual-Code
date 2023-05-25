@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bded31d22df06464599cd3d427e79ff7, type: 3}
+  m_Name: Castle
+  m_EditorClassIdentifier: 
+  _upgradeLevels:
+  - _localizator: {fileID: 11400000, guid: 736a939725c41054cb872cbe4409aa36, type: 2}
+    _improvementCost:
+      _requiredResources:
+      - _resourceType: 1
+        _amount: 10
+      - _resourceType: 2
+        _amount: 10
+    _model: {fileID: 100000, guid: f1d267045620d8f40a446655a93df223, type: 3}
+  - _localizator: {fileID: 11400000, guid: b403cb33c30a5794ebd153c23de3d54a, type: 2}
+    _improvementCost:
+      _requiredResources:
+      - _resourceType: 1
+        _amount: 10
+      - _resourceType: 2
+        _amount: 10
+    _model: {fileID: 100000, guid: fc4ed9ef41f9dc944af60388921a8746, type: 3}
+  - _localizator: {fileID: 11400000, guid: 0221e1eb4e48d5345acd08ca9f2b99cd, type: 2}
+    _improvementCost:
+      _requiredResources:
+      - _resourceType: 1
+        _amount: 10
+      - _resourceType: 2
+        _amount: 10
+    _model: {fileID: 100000, guid: c5f43a47e4b64c14da6e0081f639fdd3, type: 3}
+  - _localizator: {fileID: 11400000, guid: 174ba4d1391973f4389113b014c60268, type: 2}
+    _improvementCost:
+      _requiredResources:
+      - _resourceType: 1
+        _amount: 10
+      - _resourceType: 2
+        _amount: 10
+    _model: {fileID: 100000, guid: 003306f67c7bed24b8be307fb52fb0ab, type: 3}
+  - _localizator: {fileID: 11400000, guid: c0440ce7e734e2246b72ed7b55859427, type: 2}
+    _improvementCost:
+      _requiredResources:
+      - _resourceType: 1
+        _amount: 10
+      - _resourceType: 2
+        _amount: 10
+    _model: {fileID: 100000, guid: 637b3bb1a53fd584b8b2f29eddb05290, type: 3}
+  _improvementButtons:
+  - {fileID: -1346513165923633998, guid: a1193a6cf02310b49a4acced0eba6cad, type: 3}

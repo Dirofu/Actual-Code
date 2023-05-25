@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bded31d22df06464599cd3d427e79ff7, type: 3}
+  m_Name: Workshop
+  m_EditorClassIdentifier: 
+  _upgradeLevels:
+  - _localizator: {fileID: 11400000, guid: 7c0c2c2ea6d1b4942a187c571679d990, type: 2}
+    _lable: "\u0420\u0443\u0438\u043D\u044B (\u041A\u0430\u043C\u0435\u043D\u043E\u043B\u043E\u043C\u043D\u044F)"
+    _description: "\u0417\u0434\u0430\u043D\u0438\u0435 \u043D\u0435 \u043F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u043E"
+    _improvementCost:
+      _requiredResources:
+      - _resourceType: 1
+        _amount: 10
+      - _resourceType: 2
+        _amount: 10
+    _model: {fileID: 100000, guid: de6238c57a8f0ac478c92903b1b153cc, type: 3}
+  - _localizator: {fileID: 11400000, guid: 1311d61733d31574ca1f1541df6f02f0, type: 2}
+    _lable: "\u041A\u0430\u043C\u0435\u043D\u043E\u043B\u043E\u043C\u043D\u044F \u0423\u0440.1"
+    _description: "\u041F\u0440\u0438\u043D\u043E\u0441\u0438\u0442 20 \u0435\u0434\u0438\u043D\u0438\u0446
+      \u043A\u0430\u043C\u043D\u044F \u0432 \u0434\u0435\u043D\u044C"
+    _improvementCost:
+      _requiredResources:
+      - _resourceType: 1
+        _amount: 10
+      - _resourceType: 2
+        _amount: 10
+    _model: {fileID: 100000, guid: 5573396f6b8833f4dbd78bbb53d56df5, type: 3}
+  - _localizator: {fileID: 11400000, guid: 2723bbf1d92d7d4419195c717ce261d2, type: 2}
+    _lable: "\u041A\u0430\u043C\u0435\u043D\u043E\u043B\u043E\u043C\u043D\u044F \u0423\u0440.2"
+    _description: "\u041F\u0440\u0438\u043D\u043E\u0441\u0438\u0442 40 \u0435\u0434\u0438\u043D\u0438\u0446
+      \u043A\u0430\u043C\u043D\u044F \u0432 \u0434\u0435\u043D\u044C"
+    _improvementCost:
+      _requiredResources:
+      - _resourceType: 1
+        _amount: 10
+      - _resourceType: 2
+        _amount: 10
+    _model: {fileID: 100000, guid: 5573396f6b8833f4dbd78bbb53d56df5, type: 3}
+  _improvementButtons:
+  - {fileID: -1346513165923633998, guid: a1193a6cf02310b49a4acced0eba6cad, type: 3}
+  - {fileID: 1345240880177941106, guid: 63336d7bb043ff34987b86dc41f836f6, type: 3}

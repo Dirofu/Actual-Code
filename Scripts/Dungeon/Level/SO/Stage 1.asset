@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d800c9d2bb775468d22084c84978a1, type: 3}
+  m_Name: Stage 1
+  m_EditorClassIdentifier: 
+  _levels:
+  - _preset: {fileID: 0}
+    _enemyTypes:
+    - _enemyPrefab: {fileID: 4052512690742561182, guid: 70889b42c6193c94ca088dae5022ef9e, type: 3}
+      _count: 2
+      _level: 1
+  - _preset: {fileID: 0}
+    _enemyTypes:
+    - _enemyPrefab: {fileID: 4052512690742561182, guid: 70889b42c6193c94ca088dae5022ef9e, type: 3}
+      _count: 5
+      _level: 1
+  - _preset: {fileID: 0}
+    _enemyTypes:
+    - _enemyPrefab: {fileID: 4052512690742561182, guid: 70889b42c6193c94ca088dae5022ef9e, type: 3}
+      _count: 2
+      _level: 1
+    - _enemyPrefab: {fileID: 5834883806167949883, guid: 1cc20bb0195e87c419fbce47b81c80eb, type: 3}
+      _count: 1
+      _level: 1
+  - _preset: {fileID: 0}
+    _enemyTypes:
+    - _enemyPrefab: {fileID: 4052512690742561182, guid: 70889b42c6193c94ca088dae5022ef9e, type: 3}
+      _count: 1
+      _level: 1
+    - _enemyPrefab: {fileID: 5834883806167949883, guid: 1cc20bb0195e87c419fbce47b81c80eb, type: 3}
+      _count: 1
+      _level: 1
+    - _enemyPrefab: {fileID: 4052512690742561182, guid: 70889b42c6193c94ca088dae5022ef9e, type: 3}
+      _count: 3
+      _level: 1
+  - _preset: {fileID: 0}
+    _enemyTypes:
+    - _enemyPrefab: {fileID: 4052512690742561182, guid: 70889b42c6193c94ca088dae5022ef9e, type: 3}
+      _count: 3
+      _level: 1
+    - _enemyPrefab: {fileID: 1652209120642381445, guid: 66f6e94c1fc817847adcea45ae59247d, type: 3}
+      _count: 1
+      _level: 1
+  - _preset: {fileID: 0}
+    _enemyTypes:
+    - _enemyPrefab: {fileID: 1652209120642381445, guid: 66f6e94c1fc817847adcea45ae59247d, type: 3}
+      _count: 1
+      _level: 1
+    - _enemyPrefab: {fileID: 5834883806167949883, guid: 1cc20bb0195e87c419fbce47b81c80eb, type: 3}
+      _count: 1
+      _level: 1
+    - _enemyPrefab: {fileID: 4052512690742561182, guid: 70889b42c6193c94ca088dae5022ef9e, type: 3}
+      _count: 2
+      _level: 1
+  - _preset: {fileID: 0}
+    _enemyTypes:
+    - _enemyPrefab: {fileID: 910326426580256363, guid: c87ed8ae8d047664e8ae8217c05fabc8, type: 3}
+      _count: 3
+      _level: 1
+  - _preset: {fileID: 0}
+    _enemyTypes:
+    - _enemyPrefab: {fileID: 5834883806167949883, guid: 1cc20bb0195e87c419fbce47b81c80eb, type: 3}
+      _count: 1
+      _level: 1
+    - _enemyPrefab: {fileID: 4052512690742561182, guid: 70889b42c6193c94ca088dae5022ef9e, type: 3}
+      _count: 3
+      _level: 1
+    - _enemyPrefab: {fileID: 1652209120642381445, guid: 66f6e94c1fc817847adcea45ae59247d, type: 3}
+      _count: 1
+      _level: 1
+  - _preset: {fileID: 0}
+    _enemyTypes:
+    - _enemyPrefab: {fileID: 5834883806167949883, guid: 1cc20bb0195e87c419fbce47b81c80eb, type: 3}
+      _count: 2
+      _level: 1
+  - _preset: {fileID: 0}
+    _enemyTypes:
+    - _enemyPrefab: {fileID: 1652209120642381445, guid: 66f6e94c1fc817847adcea45ae59247d, type: 3}
+      _count: 2
+      _level: 1
