@@ -1,3 +1,3 @@
 # Actual-Code
 
-Code from the latest game for the Yandex.Games Web platform.
+Code from the current game under development for the Yandex.Games web platform.
